@@ -20,10 +20,10 @@ const Project = () => {
                                     </p>
                                     <div className='project-buttons'>
                                         <button>
-                                            <a href="https://ankit-reactjs-gallery.netlify.app/"  target="_blank" rel="noreferrer">Code</a>
+                                            <a href="https://github.com/Ankit23456789"  target="_blank" rel="noreferrer">Code</a>
                                         </button>
                                         <button>
-                                            <a href="https://ankit23456789.github.io/Reactjs_Gallery/"  target="_blank" rel="noreferrer">Demo</a>
+                                            <a href="https://ankit-reactjs-gallery.netlify.app/"  target="_blank" rel="noreferrer">Demo</a>
                                         </button>
                                     </div>
                                 </div>
