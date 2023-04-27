@@ -10,7 +10,7 @@ const Project = () => {
                     <div className='row' >
                         <div className='col-md-6 col-lg-4  col-12 my-3 '>
                             <div className="card">
-                                <img src="images/image_gallery-with_filtereffect.png" className="card-img-top img-fluid" alt="..." />
+                                <img src="images/image_gallery-with_filtereffect.png" className="card-img-top img-fluid" width={300} height={300} alt="..." />
                                 <div className="card-body">
                                     <h5 className="card-title">ReactJs Image Gallery</h5>
                                     <p className="card-text">

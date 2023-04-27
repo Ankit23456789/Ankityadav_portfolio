@@ -40,58 +40,7 @@ const About = () => {
 
 
       </div>
-      <div className='container Aboutme_eduaction_section'>
-        <div className='row'>
-          
-          <div className=' col-md-12 col-lg-12 col-12 Education-Details'>
-           <p className='text-center education-paragraph'>Education  Qualification</p>
-
-            <ul className='Education_list' >
-              <li>
-                <i class="fa-solid fa-graduation-cap" />
-                <h3> Post Graduation</h3>
-                <h4> Master of Computer Applications (MCA)</h4>
-                <p>
-                JC BOSE UNIVERSITY OF SCIENCE AND TECHNOLOGY (YMCA) FARIDABAD ,HARYANA IN (2019- 2022)
-                </p>
-                
-              </li>
-              <li>
-                <i class="fa-solid fa-graduation-cap" />
-                <h3> Graduation</h3> 
-                <h4> Bachelor of Computer Applications (BCA)</h4>
-                <p>
-                MAHARSHI DAYANAND UNIVERSITY ROHTAK ,HARYANA IN (2016-2019)
-                </p>
-                
-              </li>
-              <li>
-                <i class="fa-solid fa-school" />
-                <h3>Higher Secondary</h3>
-                <h4>12th</h4>
-                <p>
-                EURO INTL SCHOOL BALIYAR KHURD REWARI, HARYANA (CBSE) in 2016
-                </p>
-                  
-              </li>
-              <li>
-                <i class="fa-solid fa-school" />
-                <h3> Matriculation</h3>
-                <h4>10th</h4>
-                <p>
-                ADARASH SR SEC SCHOOL KHALETA REWARI (HBSE) in 2014
-                </p>
-                
-              </li>
-            </ul>
-
-
-
-
-          </div>
-          
-        </div>
-      </div>
+    
 
 
     </>

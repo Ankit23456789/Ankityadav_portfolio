@@ -8,7 +8,7 @@ const Home = () => {
       <div className='row '>
         
         <div className='col-12 col-md-6 col-lg-6 heroimage-box'>
-          <img src="images/contactimage.JPG" alt="Ankit yadav" className='img-fluid rounded hero-img' />
+          <img src="images/contactimage.JPG" alt="Ankit yadav" className='img-fluid hero-img' />
         </div>
         <div className=' col-12 col-md-6 col-lg-6 hero-textbox text-center'>
           <h2> 

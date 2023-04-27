@@ -3,7 +3,6 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import ContactMe from "./pages/ContactMe";
 import NavigationBar from "./Component/NavigationBar";
-import Footer from "./Component/Footer";
 import Skills from "./pages/Skills";
 import Project from "./pages/Project";
 import { Routes, Route } from "react-router-dom";
@@ -19,7 +18,7 @@ function App() {
         <Route path="/projects" element={<Project/>}/>
         <Route path="/contactMe" element={<ContactMe />} />
       </Routes>
-      <Footer />
+      
     </div>
   );
 }

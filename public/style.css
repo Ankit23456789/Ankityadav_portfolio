@@ -9,10 +9,11 @@
 body {
      /* background-color:#40d6ff !important; */
      color: #ffffff !important;
-     background-image: url(images/wallpaper.jpg);
-     background-size:cover;
+     /* background-image: url(images/wallpaper.jpg);
+     background-size: 100% 100% ;
      background-repeat: no-repeat;
-     background-position: center;
+     background-position: center; */
+     background-color: #000000 !important;
      font-family: 'Raleway', sans-serif !important;
 }
 
@@ -43,7 +44,7 @@ body {
      text-decoration: none;
      font-size: 35px;
      font-weight: bolder;
-     background: -webkit-linear-gradient(#b1174b, #ffffff,#00c8ff);
+     background: -webkit-linear-gradient(#b1174b, #ffffff, #00c8ff);
      background-clip: border-box;
      -webkit-background-clip: text;
      -webkit-text-fill-color: transparent;
@@ -184,10 +185,11 @@ body {
 
      opacity: 1;
 }
-.hero-textbox{
-      background-color: rgb(0, 0, 0, 0.5);
+
+.hero-textbox {
+     background-color: rgb(0, 0, 0, 0.5);
      padding: 5px;
-      
+
 }
 
 .hero-textbox h1 {
@@ -195,7 +197,7 @@ body {
 }
 
 .hero-textbox h1 span {
-     color: white;
+     color: #000;
      font-size: 3rem;
 }
 
@@ -215,6 +217,12 @@ body {
 
      border-radius: 40px;
 
+}
+
+.heroimage-box img:hover {
+     box-shadow: 10px 10px 8px rgb(0, 0, 0);
+     
+     
 }
 
 @media (max-width:768px) {
@@ -281,21 +289,25 @@ body {
      font-size: 18px;
      font-weight: 600;
 }
-@media (max-width:425px){
+
+@media (max-width:425px) {
      .hero-textbox h2 {
           font-size: 25px;
           font-weight: 900;
-      }
-      .hero-textbox h4 {
+     }
+
+     .hero-textbox h4 {
           font-weight: 700;
           font-size: 20px;
-      }
-      .hero-textbox .Home_textbox {
+     }
+
+     .hero-textbox .Home_textbox {
           font-size: 16px;
           font-weight: 600;
-      }
-     
+     }
+
 }
+
 /*  home section style end*/
 
 .AboutSection {
@@ -427,32 +439,38 @@ body {
      font-weight: 800;
 
 }
-@media (max-width:425px){
+
+@media (max-width:425px) {
      .AboutSection h3 {
           font-size: 25px;
           font-weight: 800;
-      }
-      .aboutsection-textbox p {
+     }
+
+     .aboutsection-textbox p {
           font-size: 16px;
           font-weight: 500;
           text-align: center;
-      }
-      .Education-Details .education-paragraph {
+     }
+
+     .Education-Details .education-paragraph {
           font-size: 20px;
           font-weight: 800;
-      }
-      .Education_list li h3 {
+     }
+
+     .Education_list li h3 {
           font-size: 16px;
           font-weight: 700;
-      }
-      .Education_list li h4 {
+     }
+
+     .Education_list li h4 {
           font-size: 16px;
           font-weight: 700;
-      }
-      .Education_list li p {
+     }
+
+     .Education_list li p {
           font-size: 14px;
           font-weight: 600;
-      }
+     }
 
 }
 
@@ -474,11 +492,12 @@ body {
      font-size: 30px;
      font-weight: 800;
 }
-@media (max-width:425px){
+
+@media (max-width:425px) {
      .skill-box .skill-paragraph {
           font-size: 25px;
           font-weight: 800;
-     }   
+     }
 }
 
 .Skills-list li {
@@ -503,12 +522,14 @@ body {
           width: 100% !important;
      }
 }
-.progress .progress-bar{
-     background: #d53369;  /* fallback for old browsers */
-     background: -webkit-linear-gradient(to right, #cbad6d, #d53369); 
-     background: linear-gradient(to right, #cbad6d, #ff0055); 
-     
-     
+
+.progress .progress-bar {
+     background: #d53369;
+     /* fallback for old browsers */
+     background: -webkit-linear-gradient(to right, #cbad6d, #d53369);
+     background: linear-gradient(to right, #cbad6d, #ff0055);
+
+
 }
 
 /* Skills section style ends */
@@ -521,41 +542,49 @@ body {
 
 
 }
-.project-buttons{
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      
-}
-.project-buttons button{
-      border-radius: 10px;
-      width: 110px;
-      height: 40px;
-      background-color: #000000;
-      transition: all 0.2s ease-in-out;
-}
-.project-buttons button:hover{
-     border: 3px solid rgb(40, 212, 243);
-     
-}
-.project-buttons button a{
-      text-decoration: none;
-      color: #ffffff;
-      font-size: 16px;
-      font-weight: 600;
-      cursor: pointer;
-}
-.card-body .card-title ,.card-text{
-      color: #000000;
-}
-.card-body .card-title{
-      font-size: 20px;
-      font-weight: 700;
+
+.project-buttons {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
 
 }
-.card-body .card-text{
-      font-size: 18px;
-      font-weight: 500;
+
+.project-buttons button {
+     border-radius: 10px;
+     width: 110px;
+     height: 40px;
+     background-color: #000000;
+     transition: all 0.2s ease-in-out;
+}
+
+.project-buttons button:hover {
+     border: 3px solid rgb(40, 212, 243);
+
+}
+
+.project-buttons button a {
+     text-decoration: none;
+     color: #ffffff;
+     font-size: 16px;
+     font-weight: 600;
+     cursor: pointer;
+}
+
+.card-body .card-title,
+.card-text {
+     color: #000000;
+}
+
+.card-body .card-title {
+     font-size: 20px;
+     font-weight: 700;
+
+}
+
+.card-body .card-text {
+     font-size: 18px;
+     font-weight: 500;
 }
 
 .project-section h1 {
@@ -601,7 +630,7 @@ body {
 
 
 .contactform_box {
-     
+
      padding: 30px;
 }
 
@@ -655,45 +684,52 @@ body {
      border-radius: 10px;
      box-shadow: 10px 10px 8px rgb(0, 0, 0);
 }
-@media (max-width:425px){
-      .my-image img{
-           width: 70%;
-      }
+
+@media (max-width:425px) {
+     .my-image img {
+          width: 70%;
+     }
 }
-.contact-cards{
-      width: 100%;
-      background-color: rgb(0, 0, 0, 0.5);
-      min-height: 200px;
-      padding: 10px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      border-radius: 20px;
-      margin-top: 10px;
+
+.contact-cards {
+     width: 100%;
+     background-color: rgb(0, 0, 0, 0.5);
+     min-height: 200px;
+     padding: 10px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     border-radius: 20px;
+     margin-top: 10px;
 
 }
-.contact-cards i{
-      font-size: 2rem;
+
+.contact-cards i {
+     font-size: 2rem;
 }
-.contact-cards .card-headings{
-      font-size: 20px;
-      font-weight: 700;
+
+.contact-cards .card-headings {
+     font-size: 20px;
+     font-weight: 700;
 }
-.contact-cards p{
-      font-size: 18px;
+
+.contact-cards p {
+     font-size: 18px;
 }
-@media (max-width:425px){ 
+
+@media (max-width:425px) {
      .contactme_box h3 {
           font-size: 28px;
           font-weight: 800;
-          
-      }
-      contactme_box p {
+
+     }
+
+     contactme_box p {
           font-size: 20px;
           font-weight: 600;
-          
-      }
+
+     }
 }
 
 /* Contact styles END */
