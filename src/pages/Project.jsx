@@ -31,12 +31,12 @@ const Project = () => {
                         </div>
                         <div className='col-md-6 col-lg-4  col-12 my-3'>
                             <div className="card" >
-                                <img src="images/image-gallery-simple-html-css.png" className="card-img-top img-fluid" alt="..." />
+                                <img src="images/image-gallery-project.png" className="card-img-top img-fluid" alt="..." />
                                 <div className="card-body">
                                     <h5 className="card-title">Simple Image Gallery using  Html and CSS</h5>
                                     <p className="card-text">
                                         this image gallery is  the  simle project which is designed using
-                                        Html and CSS only.this website is completely responsive for all devices.
+                                        Html and CSS only.c n  
 
                                     </p>
                                     <div className='project-buttons'>
@@ -53,7 +53,7 @@ const Project = () => {
                         </div>
                         <div className='col-md-6 col-lg-4 col-sm-6 col-12 my-3'>
                             <div className="card" >
-                                <img src="images/landing_page.png" className="card-img-top img-fluid" alt="..." />
+                                <img src="images/landling page1.png" className="card-img-top img-fluid" alt="..." />
                                 <div className="card-body">
                                     <h5 className="card-title"> Landing  page website </h5>
                                     <p className="card-text">
