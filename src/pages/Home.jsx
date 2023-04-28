@@ -9,10 +9,10 @@ const Home = () => {
 
       <div className='row '>
 
-        <div className='col-12 col-md-6 col-lg-6 heroimage-box'>
+        <div className='col-12 col-md-12 col-lg-6 heroimage-box my-4'>
           <img src="images/contactimage.JPG" alt="Ankit yadav" className='img-fluid hero-img' />
         </div>
-        <div className=' col-12 col-md-6 col-lg-6 hero-textbox text-center'>
+        <div className=' col-12 col-md-12 col-lg-6 hero-textbox text-center my-4' >
           <h2>
             Hello , my  name is Ankit yadav
           </h2>

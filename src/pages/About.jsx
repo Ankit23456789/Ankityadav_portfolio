@@ -10,10 +10,10 @@ const About = () => {
         <h3 className='text-center'>About Me</h3>
 
         <div className='row'>
-          <div className='col-12 col-md-6 col-lg-6 heroimage-box'>
+          <div className='col-12 col-md-12 col-lg-6 heroimage-box my-4'>
             <img src="images/contactimage.JPG" alt=" profile" className='img-fluid rounded hero-img' />
           </div>
-          <div className=' col-12  col-md-6 col-lg-6  aboutsection-textbox '>
+          <div className=' col-12  col-md-12 col-lg-6  aboutsection-textbox my-4 '>
 
             <p>
               Hey , My name is Ankit yadav . I  am website  Developer . I am  from  Rewari  Haryana India.
