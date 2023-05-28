@@ -9,7 +9,7 @@
 body {
 
      color: #ffffff !important;
-     background-image: url(images/wallpaper.jpg);
+     background-image: url(images/wallpaper1.jpg);
      background-position: center;
      background-repeat: no-repeat;
      background-size: cover;
@@ -43,10 +43,7 @@ body {
      text-decoration: none;
      font-size: 35px;
      font-weight: bolder;
-     background: -webkit-linear-gradient(#b1174b, #ffffff, #00c8ff);
-     background-clip: border-box;
-     -webkit-background-clip: text;
-     -webkit-text-fill-color: transparent;
+   
      font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -83,7 +80,7 @@ body {
 .activated {
      color: #09bef0;
      border-bottom: 2px solid white;
-     padding-bottom:3px ;
+     padding-bottom: 3px;
 }
 
 .fa-bars {
@@ -171,7 +168,7 @@ body {
 
 /* homepage style */
 .Home {
-    
+
      width: 100%;
      height: 100vh;
      align-items: center;
@@ -180,9 +177,9 @@ body {
      flex-direction: column;
      flex-wrap: wrap;
      opacity: 1;
-   
 
-     
+
+
 
 
 
@@ -191,8 +188,8 @@ body {
 
 
 .hero-textbox {
-      background-color: rgb(0, 0, 0, 0.7); 
-      padding: 50px;
+     background-color: rgb(0, 0, 0, 0.7);
+     padding: 50px;
 
 }
 
@@ -231,7 +228,7 @@ body {
      }
 
      .heroimage-box img {
-          width: 70%;
+          width: 60%;
      }
 
 
@@ -289,17 +286,13 @@ body {
      font-size: 20px;
      font-weight: 600;
 }
-@media (max-width:850px){
+
+@media (max-width:850px) {
      .hero-textbox .Home_textbox {
-           font-size: 26px;
-           font-weight: 700;
-           text-align: center;
-     }   
-     .aboutsection-textbox p {
-           font-size: 26px;
-           font-weight: 700;
-           text-align: center !important;
-     }  
+          font-size: 26px;
+          font-weight: 700;
+          text-align: center;
+     }
 }
 
 @media (max-width:425px) {
@@ -314,7 +307,7 @@ body {
      }
 
      .hero-textbox .Home_textbox {
-          font-size: 16px;
+          font-size: 18px;
           font-weight: 600;
      }
 
@@ -326,11 +319,14 @@ body {
      width: 100%;
      min-height: 100vh;
      padding: 50px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
 
      /* color: #ffffff; */
 
 }
-
 
 .AboutSection h3 {
      font-size: 38px;
@@ -342,8 +338,17 @@ body {
      justify-content: center;
      align-items: center;
      flex-direction: column;
-     background-color: rgb(0, 0, 0, 0.5);
+     background-color: rgb(0, 0, 0, 0.8);
      padding: 30px;
+}
+
+@media (max-width:850px) {
+
+     .aboutsection-textbox p {
+          font-size: 26px !important;
+          font-weight: 700;
+          text-align: center !important;
+     }
 }
 
 .aboutsection-textbox p {
@@ -398,59 +403,10 @@ body {
 
 
 
-.Education_list li i {
-     font-size: 30px;
-     margin-right: 5px;
-
-
-}
-
-.Education_list li {
-     list-style: none;
-     width: 100%;
-     border-radius: 10px;
-     width: 100%;
-     height: max-content;
-     margin-top: 10px;
-}
-
-.Education_list li h3 {
-     font-size: 20px;
-     font-weight: 700;
-}
-
-.Education_list li h4 {
-     font-size: 20px;
-     font-weight: 700;
-}
-
-.Education_list li p {
-     font-size: 18px;
-     font-weight: 600;
-}
-
-
-.Education-Details .education-paragraph {
-     font-size: 30px;
-     font-weight: 800;
-}
-
-
-.Aboutme_eduaction_section {
-
-     /* color: #ffffff; */
-     padding: 50px;
-     margin-top: 100px;
 
 
 
-}
 
-.Aboutme_eduaction_section h2 {
-     font-size: 38px;
-     font-weight: 800;
-
-}
 
 @media (max-width:425px) {
      .AboutSection h3 {
@@ -459,8 +415,8 @@ body {
      }
 
      .aboutsection-textbox p {
-          font-size: 16px;
-          font-weight: 500;
+          font-size: 18px !important;
+          font-weight: 600;
           text-align: center;
      }
 
@@ -487,64 +443,7 @@ body {
 }
 
 /* about section style end*/
-/*  skills section style start*/
-.skill-container {
-     width: 100%;
-     min-height: 100vh;
 
-     /* color: #ffffff; */
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     justify-content: center;
-     padding: 30px;
-}
-
-.skill-box .skill-paragraph {
-     font-size: 30px;
-     font-weight: 800;
-}
-
-@media (max-width:425px) {
-     .skill-box .skill-paragraph {
-          font-size: 25px;
-          font-weight: 800;
-     }
-}
-
-.Skills-list li {
-     list-style: none;
-     /* background-color: #00c8ff; */
-     margin-top: 10px;
-     font-size: 20px;
-     font-weight: 700;
-}
-
-.Skills-list li i {
-     font-size: 25px;
-     font-weight: 800;
-}
-
-.skill-box {
-     width: 65% !important;
-}
-
-@media (max-width:765px) {
-     .skill-box {
-          width: 100% !important;
-     }
-}
-
-.progress .progress-bar {
-     background: #d53369;
-     /* fallback for old browsers */
-     background: -webkit-linear-gradient(to right, #cbad6d, #d53369);
-     background: linear-gradient(to right, #cbad6d, #ff0055);
-
-
-}
-
-/* Skills section style ends */
 
 /*  My  project section  style start */
 .project-section {
@@ -608,19 +507,19 @@ body {
 /* Contactme style start */
 .contactme_box {
      width: 100%;
-     height: max-content;
+     min-height: 100vh;
      padding: 30px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
      color: #ffffff;
 
 
 
 }
 
-.contactme_box h3 {
-     font-size: 38px;
-     font-weight: 800;
-     /* color: #ffffff; */
-}
+
 
 .mylocation {
      max-width: 700px;
@@ -642,8 +541,12 @@ body {
 
 
 .contactform_box {
-
-     padding: 30px;
+     background-color: rgb(0, 0, 0, 0.3);
+     padding: 20px;
+     width: 100%;
+     height: auto;
+     border-radius: 10px;
+     box-sizing: border-box;
 }
 
 .inputtextbox {
@@ -657,14 +560,22 @@ body {
 
 .contact-inputs {
      display: flex;
+     align-items: center;
      flex-direction: column;
      justify-content: center;
      gap: 1rem;
      padding: 20px 10px;
-     max-width: 500px;
+     min-width: 100%;
+     height: 100%;
 
 
 
+
+}
+
+.get-touch-box {
+     width: 100%;
+     min-height: 100px;
 }
 
 .textareabox {
@@ -691,8 +602,16 @@ body {
      font-variant: small-caps;
 }
 
+.my-image {
+     width: 100%;
+     height: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
 .my-image img {
-     width: 55%;
+     width: 58%;
      border-radius: 10px;
      box-shadow: 10px 10px 8px rgb(0, 0, 0);
 }
@@ -730,12 +649,15 @@ body {
      font-size: 18px;
 }
 
-@media (max-width:425px) {
-     .contactme_box h3 {
-          font-size: 28px;
-          font-weight: 800;
+@media (max-width:780px) {
+     .contact-cards p {
+          font-size: 16px;
 
      }
+}
+
+@media (max-width:425px) {
+
 
      contactme_box p {
           font-size: 20px;

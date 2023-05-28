@@ -12,7 +12,7 @@ const NavigationBar = () => {
       <nav className='navbar'>
         <div className='navbar-container container'>
          <Link  to={"/"} className='navbar-logo' onClick={closeMobileMenu}>
-          Portfolio
+          Ankit
          </Link> 
          <div className='menu-icon' onClick={handleClick}>
           {click ? <FaTimes/> : <FaBars/>}

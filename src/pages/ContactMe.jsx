@@ -4,63 +4,57 @@ const ContactMe = () => {
   return (
     <>
       <div className='container contactme_box'>
-      
-     
-        <h3 className='text-center my-2'> Contact  Me</h3>
-        
-        <p className='text-center'>Let's Talk</p>
-      
-
         <div className='row contactform_box'>
-          <div className='col-12 col-md-6 col-lg-6 ' >
+          <p className='text-center'>Let's Talk</p>
+          <div className='col-12 col-md-12 col-lg-6  my-4' >
 
             <div className=' my-image text-center'>
               <img src="images/contactimage.JPG" alt="Ankit yadav " className='img-fluid' />
             </div>
           </div>
-          <div className='col-12 col-md-6 col-lg-6 '>
+          <div className='col-12 col-md-12 col-lg-6  my-4 form-section'>
             <form action="https://formspree.io/f/xqkodjkj" method='POST' className='contact-inputs' target="_blank">
               <input type="text" name="username" placeholder='Username' autoComplete='off' required className='inputtextbox' />
               <input type="email" name="Email" placeholder='Email' autoComplete='off' required className='inputtextbox' />
               <input type="text" name="Subject" placeholder='Subject' autoComplete='off' required className='inputtextbox' />
 
-              <textarea name="message" cols="10" rows="5" autoComplete='off' required className='textareabox' placeholder='Drop your message here'></textarea>
+              <textarea name="message" cols="8" rows="3" autoComplete='off' required className='textareabox' placeholder='Drop your message here'></textarea>
               <input type="submit" value="Send Message" className='submit_button  ' />
             </form>
           </div>
         </div>
         <div className='container-fluid get-touch-box'>
-         <div className='row'>
-          <div className='col-md-4 col-lg-4  col-12'>
-            <div className='contact-cards text-center'>
-            <i class="fa-regular fa-envelope"></i>
-             <p className='card-headings'>Email</p>
-            
-              <p>ankityadav281998@gmail.com</p>
-            </div>
-          </div>
-          <div className='col-md-4 col-lg-4  col-12'>
-           <div className='contact-cards text-center'>
-           <i class="fa-brands fa-whatsapp"></i>
-              <p className='card-headings'> WhatsApp</p>
-             
-               <p>8708632942</p>
-           </div>
-          </div>
-          <div className='col-md-4 col-lg-4  col-12'>
-            <div className='contact-cards text-center'>
-            <i class="fa-solid fa-house"></i>
-             <p className='card-headings'>Address</p>
-              <p>
-                H.NO - D3 Street No - 5 Sarashwati Vihar 
-                Kalaka Road, Rewari Haryana 123401
+          <div className='row'>
+            <div className='col-md-12 col-lg-4  col-12 '>
+              <div className='contact-cards text-center'>
+                <i class="fa-regular fa-envelope"></i>
+                <p className='card-headings'>Email</p>
 
-              </p>
+                <p>ankityadav281998@gmail.com</p>
+              </div>
+            </div>
+            <div className='col-md-12 col-lg-4  col-12'>
+              <div className='contact-cards text-center'>
+                <i class="fa-brands fa-whatsapp"></i>
+                <p className='card-headings'> WhatsApp</p>
+
+                <p>8708632942</p>
+              </div>
+            </div>
+            <div className='col-md-12 col-lg-4  col-12'>
+              <div className='contact-cards text-center'>
+                <i class="fa-solid fa-house"></i>
+                <p className='card-headings'>Address</p>
+                <p>
+                  H.NO - D3 Street No - 5 Sarashwati Vihar
+                  Kalaka Road, Rewari Haryana 123401
+
+                </p>
+              </div>
             </div>
           </div>
-         </div>
         </div>
-        
+
       </div>
     </>
   )

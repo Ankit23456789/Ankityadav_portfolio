@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 const Project = () => {
     return (
         <>
@@ -96,8 +97,7 @@ const Project = () => {
                     </div>
                 </div>
 
-
-
+           
 
             </div>
 
