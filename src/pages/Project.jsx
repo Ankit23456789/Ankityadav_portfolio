@@ -25,24 +25,7 @@ const Project = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='col-md-6 col-lg-4  col-12 my-3'>
-                            <div className="card" >
-                                <img src="images/image-gallery-project.png" className="card-img-top img-fluid" alt="..." />
-                                <div className="card-body">
-                                    <h5 className="card-title">Simple Image Gallery using Html&CSS</h5>
-                                
-                                    <div className='project-buttons'>
-                                        <button>
-                                            <a href="https://github.com/Ankit23456789" target="_blank" rel="noreferrer">Code</a>
-                                        </button>
-                                        <button>
-                                            <a href="https://ankit23456789.github.io/Image_Gallery_html/" target="_blank" rel="noreferrer">Demo</a>
-                                        </button>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
+                        
                         <div className='col-md-6 col-lg-4 col-sm-6 col-12 my-3'>
                             <div className="card" >
                                 <img src="images/landling page1.png" className="card-img-top img-fluid" alt="..." />
