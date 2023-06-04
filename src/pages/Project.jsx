@@ -5,7 +5,7 @@ const Project = () => {
         <>
 
             <div className='container-fluid project-section '>
-                <h1>Project Section</h1>
+                <h3>Project Section</h3>
                 <div className='container project-box '>
                     <div className='row' >
                         <div className='col-md-6 col-lg-4  col-12 my-3 '>
@@ -48,7 +48,7 @@ const Project = () => {
                             <div className="card" >
                                 <img src="images/Architech-Website.png" className="card-img-top img-fluid" alt="..." />
                                 <div className="card-body">
-                                    <h5 className="card-title"> Architect Demo Website Landing Page</h5>
+                                    <h5 className="card-title"> Architect  Website Landing Page</h5>
                                     
                                     <div className='project-buttons'>
 

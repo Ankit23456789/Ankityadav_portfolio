@@ -5,7 +5,7 @@ const ContactMe = () => {
     <>
       <div className='container contactme_box'>
         <div className='row contactform_box'>
-          <p className='text-center'>Let's Talk</p>
+          <h3 className='text-center'>Let's Talk</h3>
           <div className='col-12 col-md-12 col-lg-6  my-4' >
 
             <div className=' my-image text-center'>
