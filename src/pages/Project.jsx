@@ -2,7 +2,7 @@ import React from 'react'
 
 const Project = () => {
     return (
-        <>
+        <> 
 
             <div className='container-fluid project-section '>
                 <h3>Project Section</h3>
@@ -81,6 +81,39 @@ const Project = () => {
                 </div>
 
                
+            </div>
+            <div className='Skills_Section container'> 
+            <div className='skills_text-section'>
+            <h3>Skills</h3>
+            <p>  These are the technical skills  which i am  using in my projects.
+            </p>
+            </div>
+                
+               <div className='cards'>
+               <div className='skill-cards'>
+               <img src="./images/skills/html.png" alt=""  className='skill-images'/>
+              </div>
+              <div className='skill-cards'>
+               <img src="./images/skills/css.png" alt=""  className='skill-images'/>
+              </div>
+              <div className='skill-cards'>
+               <img src="./images/skills/reactjs.png" alt=""  className='skill-images'/>
+              </div>
+              <div className='skill-cards'>
+              <img src="./images/skills/javascript.jfif" alt=""  className='skill-images'/>
+             </div>
+             <div className='skill-cards'>
+             <img src="./images/skills/bootstrap.jfif" alt=""  className='skill-images'/>
+            </div>
+            <div className='skill-cards'>
+              <img src="./images/skills/java.png" alt=""  className='skill-images'/>
+             </div>
+             <div className='skill-cards'>
+             <img src="./images/skills/c++.png" alt=""  className='skill-images'/>
+            </div>
+               </div>
+              
+              
             </div>
 
         </>
