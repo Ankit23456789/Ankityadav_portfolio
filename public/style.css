@@ -20,7 +20,7 @@ body {
 /* navigation style start */
 .navbar {
      background: rgb(0, 0, 0);
-     height: 65px;
+     height: 80px;
      display: flex;
      justify-content: center;
      align-items: center;
@@ -34,7 +34,7 @@ body {
      display: flex;
      justify-content: space-between;
      align-items: center;
-     height: 65px;
+     height: 80px;
 }
 
 .navbar-logo {
