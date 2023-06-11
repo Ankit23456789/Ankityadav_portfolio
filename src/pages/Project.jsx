@@ -5,7 +5,8 @@ const Project = () => {
         <> 
 
             <div className='container-fluid project-section '>
-                <h3>Project Section</h3>
+                <p>
+                 Some of my Recent Projects</p>
                 <div className='container project-box '>
                     <div className='row' >
                         <div className='col-md-6 col-lg-4  col-12 my-3 '>
