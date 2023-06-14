@@ -499,6 +499,11 @@ body {
      font-weight: 800;
      
 }
+@media (max-width:850px) {
+     .project-section p{
+          font-size: 20px;
+     }
+}
 
 /*  my project section style  end */
 /* Contactme style start */
@@ -693,10 +698,16 @@ body {
       border-radius: 50px;
 
 }
+
 .skill-cards .skill-images{
       width: 100%;
       height: 100%;
       border-radius: 50px;
 }
-
+@media (max-width:780px) {
+     .skill-cards{
+          width: 90px;
+          height: 90px;
+     }
+}
 
